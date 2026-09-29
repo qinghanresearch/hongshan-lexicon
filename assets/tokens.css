@@ -1,0 +1,37 @@
+/* Shared semantic tokens: every page uses the same reading system. */
+:root {
+  color-scheme: light;
+  --color-paper: #f8f6f0;
+  --color-surface: #fffdf8;
+  --color-ink: #273b32;
+  --color-body: #39473f;
+  --color-muted: #626a60;
+  --color-jade: #2e5549;
+  --color-jade-soft: #e9eee6;
+  --color-rust: #875444;
+  --color-line: #d7d8cb;
+  --color-image: #eeefec;
+  --color-focus: #8d482e;
+  --font-ui: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-editorial: "Songti SC", "STSong", "Noto Serif CJK SC", "SimSun", Georgia, serif;
+  --font-latin: Georgia, "Times New Roman", serif;
+  --text-label: .875rem;
+  --text-body: 1.0625rem;
+  --text-reading: 1.125rem;
+  --text-lead: clamp(1.125rem, 1.45vw, 1.25rem);
+  --text-title: clamp(2rem, 3.2vw, 2.75rem);
+  --space-1: .25rem;
+  --space-2: .5rem;
+  --space-3: .75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-24: 6rem;
+  --page-width: 1240px;
+  --reading-width: 680px;
+  --gutter: clamp(20px, 4vw, 56px);
+  --radius: 4px;
+  --duration: 180ms;
+}

@@ -1,0 +1,19 @@
+.language-switch{font-weight:600;border:1px solid var(--color-line);padding:0 12px;border-radius:3px}.primary-nav{flex-wrap:wrap;gap:18px}.review-status{font-size:13px;color:var(--color-muted);border-top:1px solid var(--color-line);padding-top:14px}.entry-content .markdown-body{padding-bottom:48px}.entry-outline{max-height:80vh;overflow:auto}.entry-outline nav a{line-height:1.65;padding-block:7px}.term-link{text-decoration-style:dotted;text-decoration-thickness:1px}.term-link:hover{text-decoration-style:solid}.citation-link{font-size:.8em;white-space:nowrap}.references{padding-left:1.3em;overflow-wrap:anywhere}.references li{padding:12px 0}.source-note{font-size:14px!important;line-height:1.7;color:var(--color-muted);margin-top:8px}.edition-search{display:flex;align-items:end;gap:18px;margin-bottom:28px}.edition-search label{display:flex;flex-direction:column;gap:7px;font-size:14px;flex:1;min-width:0}.edition-search input,.edition-search select{width:100%;min-height:48px;padding:10px 14px;border:1px solid var(--color-line);border-radius:3px;background:var(--color-surface);color:var(--color-ink)}html[lang=en] .markdown-body{line-height:1.85}html[lang=en] h1{letter-spacing:-.015em}html[lang=en] .brand{letter-spacing:0}.related-card span{line-height:1.6;font-size:14px}.category-card h3{font-size:23px}.entry-hero.text-only{max-width:960px}.entry-code{white-space:nowrap}.markdown-body h2{scroll-margin-top:28px}
+@media(max-width:720px){.primary-nav{gap:12px;padding-bottom:10px}.primary-nav a{font-size:14px}.edition-search{flex-direction:column;align-items:stretch}.entry-outline{max-height:none}.entry-outline nav{display:flex;flex-direction:column}.entry-hero.text-only h1{font-size:36px;overflow-wrap:anywhere}.entry-toolbar{align-items:start}.entry-code{font-size:10px}.category-grid{grid-template-columns:1fr}.brand{max-width:100%}.brand-en{font-size:9px}.references{padding-left:1em}}
+
+/* Reading typography: use the language's own punctuation metrics. */
+html[lang=en]{--font-ui:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;--font-editorial:Georgia,"Times New Roman",serif}
+body{font-size:1.0625rem}h1,h2,h3{letter-spacing:0!important;overflow-wrap:break-word}
+.home-hero h1,.page-intro h1,.prose-page>h1,.entry-hero.text-only h1{font-size:clamp(2rem,3.2vw,2.75rem);line-height:1.35;letter-spacing:0}
+.home-section h2,.reading-section h2,.markdown-body h2{font-size:clamp(1.5rem,2vw,1.75rem);line-height:1.5}
+.category-card h3{font-size:1.375rem;line-height:1.5}
+.markdown-body,.entry-content .references{font-size:1.125rem;line-height:1.85}
+html[lang=en] .markdown-body,html[lang=en] .entry-content .references{line-height:1.7}
+.entry-hero.text-only{max-width:860px}.entry-hero .lead,.home-hero .lead{font-size:1.1875rem;line-height:1.85;max-width:40em}
+.entry-hero .english{font-size:clamp(1.25rem,2vw,1.5rem);line-height:1.5;overflow-wrap:break-word}
+[lang=en].english{font-family:var(--font-latin)}[lang=zh-CN].english{font-family:"Songti SC","Noto Serif CJK SC",serif}
+.entry-content{min-width:0;max-width:680px}.prose-page{max-width:760px}.source-note{font-size:.9375rem!important}
+.markdown-body p{margin-block:1.1em}.markdown-body h2{margin-top:2em}.markdown-body table{font-size:1rem}
+@media(max-width:720px){.entry-hero.text-only h1{font-size:2rem}.markdown-body,.entry-content .references{font-size:1.0625rem}.entry-hero .lead{font-size:1.125rem}.entry-hero .english{font-size:1.25rem}}
+
+.chinese-term{display:block;font-family:"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",sans-serif;font-size:1rem;font-weight:400;line-height:1.65;color:var(--color-muted);margin-top:.35rem;letter-spacing:0}.category-card .chinese-term,.related-card .chinese-term{font-size:.9375rem}
